@@ -1,8 +1,9 @@
 import deepmerge from 'deepmerge';
-import {
-    INIT as INIT_ACTION,
-    UPDATE as UPDATE_ACTION
-} from '@ngrx/store';
+
+// Cannot import from the @ngrx/store package due to a module resolution issue.
+// See Issue #206.
+const INIT_ACTION = '@ngrx/store/init';
+const UPDATE_ACTION = '@ngrx/store/update-reducers';
 
 const detectDate = /(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/;
 
