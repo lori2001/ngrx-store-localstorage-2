@@ -9,5 +9,6 @@
     "dependencies": {
         "deepmerge": "^4.2.2",
         "tslib": "^2.3.0"
-    }
+    },
+    "license": "MIT"
 }

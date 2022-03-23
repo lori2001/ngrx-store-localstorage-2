@@ -3,13 +3,14 @@
     "version": "13.0.0",
     "description": "State and local storage syncing for @ngrx/store",
     "scripts": {
-        "build_dist": "npm run clean && ng build lib --configuration production",
+        "build_dist": "npm run clean && ng build lib --configuration production && npm run copy_lib_assets",
         "clean": "rimraf dist",
         "lint": "ng lint --fix",
         "ng": "ng",
         "pretest": "npm run lint",
         "test": "nyc ts-node -O '{\"module\": \"commonjs\"}' node_modules/jasmine/bin/jasmine",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "copy_lib_assets": "copyfiles README.md CHANGELOG.md LICENSE ./dist/lib/"
     },
     "repository": {
         "type": "git",
@@ -59,6 +60,7 @@
         "@types/node": "^14.17.0",
         "@typescript-eslint/eslint-plugin": "5.3.0",
         "@typescript-eslint/parser": "5.3.0",
+        "copyfiles": "^2.4.1",
         "crypto-js": "^4.0.0",
         "es6-shim": "^0.35.6",
         "eslint": "^8.2.0",
