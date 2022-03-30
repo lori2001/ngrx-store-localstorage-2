@@ -1,6 +1,24 @@
 {
     "name": "ngrx-store-localstorage",
     "version": "13.0.0",
+    "description": "State and local storage syncing for @ngrx/store",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:btroncone/ngrx-store-localstorage.git"
+    },
+    "keywords": [
+        "redux",
+        "ngrx",
+        "store",
+        "localstorage",
+        "rxjs"
+    ],
+    "author": "Brian Troncone",
+    "bugs": {
+        "url": "https://github.com/btroncone/ngrx-store-localstorage/issues"
+    },
+    "homepage": "https://github.com/btroncone/ngrx-store-localstorage#readme",
+    "license": "MIT",
     "peerDependencies": {
         "@angular/common": "^13.0.0",
         "@angular/core": "^13.0.0",
