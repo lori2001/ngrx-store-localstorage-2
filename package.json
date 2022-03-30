@@ -1,7 +1,7 @@
 {
-    "name": "ngrx-store-localstorage",
-    "version": "13.0.0",
-    "description": "State and local storage syncing for @ngrx/store",
+    "name": "ngrx-store-localstorage-root",
+    "version": "0.0.0",
+    "private": "true",
     "scripts": {
         "build_dist": "npm run clean && ng build lib --configuration production && npm run copy_lib_assets",
         "clean": "rimraf dist",
@@ -12,23 +12,6 @@
         "prepare": "husky install",
         "copy_lib_assets": "copyfiles README.md CHANGELOG.md LICENSE ./dist/lib/"
     },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:btroncone/ngrx-store-localstorage.git"
-    },
-    "keywords": [
-        "redux",
-        "ngrx",
-        "store",
-        "localstorage",
-        "rxjs"
-    ],
-    "author": "Brian Troncone",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/btroncone/ngrx-store-localstorage/issues"
-    },
-    "homepage": "https://github.com/btroncone/ngrx-store-localstorage#readme",
     "dependencies": {
         "@angular/animations": "~13.0.0",
         "@angular/common": "~13.0.0",
