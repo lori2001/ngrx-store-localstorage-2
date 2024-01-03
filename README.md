@@ -18,7 +18,7 @@ Simple syncing between ngrx store and local or session storage.
 ## Usage
 
 ```bash
-npm install ngrx-store-localstorage --save
+npm install ngrx-store-localstorage-2 --save
 ```
 
 1. Wrap localStorageSync in an exported function.
@@ -33,7 +33,7 @@ import {
     ActionReducer,
     MetaReducer,
 } from "@ngrx/store";
-import { localStorageSync } from "ngrx-store-localstorage";
+import { localStorageSync } from "ngrx-store-localstorage-2";
 import { reducers } from "./reducers";
 
 const reducers: ActionReducerMap<IState> = { todos, visibilityFilter };
@@ -134,9 +134,9 @@ In this example, `feature1.slice11.slice11_1`, `feature1.slice14.slice14_2`, and
 
 1. [Sync state across multiple tabs](https://github.com/btroncone/ngrx-store-localstorage/issues/40#issuecomment-336283880)
 
-## Release Notes / Changelog
+## Release Notes
 
-From version 10 onwards, check [GitHub Releases](https://github.com/btroncone/ngrx-store-localstorage/releases) for release notes. For older versions check the [CHANGELOG.md](./CHANGELOG.md).
+Check [GitHub Releases](https://github.com/lori2001/ngrx-store-localstorage-2/releases) for release notes.
 
 ## Contributing
 
