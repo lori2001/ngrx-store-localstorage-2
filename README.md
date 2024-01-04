@@ -1,9 +1,5 @@
 # ngrx-store-localstorage-2
 
-This is a fork from https://github.com/btroncone/ngrx-store-localstorage
-
-Since that package hasn't been maintained in a while, I decided to create and maintain my own version of it.
-
 ![bundle size](https://img.shields.io/bundlephobia/minzip/ngrx-store-localstorage)
 ![npm weekly downloads](https://img.shields.io/npm/dw/ngrx-store-localstorage)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
@@ -11,9 +7,14 @@ Since that package hasn't been maintained in a while, I decided to create and ma
 
 Simple syncing between ngrx store and local or session storage.
 
+This is a fork from https://github.com/btroncone/ngrx-store-localstorage
+Since that package hasn't been maintained for more than half a year, I decided to maintain and publish my own version of it.
+
 ## Dependencies
 
-`ngrx-store-localstorage` depends on [@ngrx/store](https://github.com/ngrx/platform) and [Angular 12+](https://github.com/angular/angular).
+`ngrx-store-localstorage-2` depends on [@ngrx/store](https://github.com/ngrx/platform) and [Angular 17+](https://github.com/angular/angular).
+
+Check out [the original](https://www.npmjs.com/package/ngrx-store-localstorage) package for support for Angular 12 to Angular 16
 
 ## Usage
 
